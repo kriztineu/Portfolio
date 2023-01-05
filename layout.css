@@ -1,0 +1,13 @@
+/* Husk at kode mobile first */
+
+@media (min-width: 650px) {
+  .nav,
+  ul,
+  li {
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav {
+    padding-right: 20px;
+  }
+}

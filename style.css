@@ -1,0 +1,39 @@
+/* HEADER */
+
+h1,
+li {
+  color: #538f5a;
+}
+
+li {
+  font-size: 20px;
+}
+
+a:link {
+  color: #538f5a;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #538f5a;
+}
+
+a:hover {
+  color: #ac070a;
+  text-decoration: underline;
+  text-decoration-color: #538f5a;
+}
+
+/* Straigh linje - HEADER */
+hr {
+  border-width: 0.5px;
+  color: #ac070a;
+}
+
+/* Tekst/ MAIN */
+
+body {
+  font-family: baskerville-display-pt, serif;
+  font-style: normal;
+  font-weight: 400;
+}
