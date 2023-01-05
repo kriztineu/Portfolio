@@ -1,12 +1,8 @@
 /* HEADER */
 
-h1,
-li {
-  color: #538f5a;
-}
-
-li {
+.nav {
   font-size: 20px;
+  color: #538f5a;
 }
 
 a:link {
@@ -24,7 +20,7 @@ a:hover {
   text-decoration-color: #538f5a;
 }
 
-/* Straigh linje - HEADER */
+/* Straight linje - HEADER */
 hr {
   border-width: 0.5px;
   color: #ac070a;
@@ -36,4 +32,16 @@ body {
   font-family: baskerville-display-pt, serif;
   font-style: normal;
   font-weight: 400;
+}
+
+h1 {
+  color: #538f5a;
+}
+
+/* OM_KRISTINE */
+
+.information {
+  font-family: kepler-std-display, serif;
+  font-weight: 400;
+  font-style: normal;
 }
