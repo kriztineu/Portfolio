@@ -40,8 +40,17 @@ h1 {
 
 /* OM_KRISTINE */
 
-.information {
+.info {
   font-family: kepler-std-display, serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.col2 {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.box {
+  background-color: #538f5a4f;
 }

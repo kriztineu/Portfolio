@@ -7,10 +7,6 @@ img {
   display: block;
 }
 
-.portræt {
-  max-width: 50%;
-}
-
 @media (min-width: 650px) {
   .nav,
   ul,
@@ -22,13 +18,31 @@ img {
     padding-right: 20px;
   }
 
-  .kontakt {
-    display: flex;
-    justify-content: center;
-  }
+  /* OM MIG */
 
-  .grid_1 {
+  .kontakt {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    padding-left: 100px;
+  }
+
+  .kontakt,
+  .box {
+    gap: 2rem;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box > *:first-child {
+    align-items: stretch;
+  }
+
+  .box > *:last-child {
+    margin: 4rem;
+    align-items: center;
   }
 }
