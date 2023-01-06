@@ -71,4 +71,22 @@ h2 {
 .left {
   line-height: 2rem;
 }
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 3s;
+}
+
+.hidden2 {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 3s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 /* FORSIDE */
