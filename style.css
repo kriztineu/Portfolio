@@ -72,13 +72,13 @@ h2 {
   line-height: 2rem;
 }
 
-.hidden {
+.hiddenleft {
   opacity: 0;
   transform: translateX(-100%);
   transition: all 3s;
 }
 
-.hidden2 {
+.hiddenright {
   opacity: 0;
   transform: translateX(100%);
   transition: all 3s;

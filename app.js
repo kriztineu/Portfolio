@@ -1,24 +1,28 @@
-const observerleft = new IntersectionObserver((entries) => {
+const observerLeft = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    } else {
-      entry.target.classList.remove("show");
     }
+    // } else {
+    //   entry.target.classList.remove("show");
+    // }
   });
 });
 
-const observerright = new IntersectionObserver((entries) => {
+const observerRight = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    } else {
-      entry.target.classList.remove("show");
     }
+    // } else {
+    //   entry.target.classList.remove("show");
+    // }
   });
 });
 
-const hiddenElements = document.querySelectorAll(".hidden");
-hiddenElements.forEach((el) => observer.observe(el));
+const hiddenElementLeft = document.querySelectorAll(".hiddenleft");
+hiddenElementLeft.forEach((el) => observerLeft.observe(el));
+const hiddenElementRight = document.querySelectorAll(".hiddenright");
+hiddenElementRight.forEach((el) => observerRight.observe(el));
