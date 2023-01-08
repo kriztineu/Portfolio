@@ -26,12 +26,42 @@ hr {
   color: #ac070a;
 }
 
+.hrindex {
+  margin-top: 100px;
+}
+
 /* Tekst/ MAIN/ALLE SIDER */
 
 body {
   font-family: baskerville-display-pt, serif;
   font-style: normal;
   font-weight: 400;
+}
+
+h1 {
+  color: #538f5a;
+  position: relative;
+  line-height: 1px;
+  font-size: 10rem;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.position {
+  position: relative;
+  left: 25rem;
+}
+
+.position2 {
+  position: relative;
+  left: 70rem;
+  bottom: 13.5rem;
+}
+
+.position3 {
+  position: relative;
+  left: 95rem;
+  bottom: 13rem;
 }
 
 /* OM_KRISTINE */
@@ -51,6 +81,10 @@ body {
   background-color: #538f5a4f;
 }
 
+.h3 {
+  font-weight: 100;
+}
+
 /* PORTFOLIO */
 
 h2 {
@@ -58,6 +92,7 @@ h2 {
   font-size: 300px;
   margin: 100px;
   margin-top: 150px;
+  color: #538f5a85;
 }
 
 .right {
@@ -95,17 +130,4 @@ h2 {
 
 .portfolio {
   padding-top: 5rem;
-}
-
-h1 {
-  color: #538f5a;
-  position: relative;
-  line-height: 1px;
-  font-size: 10rem;
-  font-weight: lighter;
-}
-
-.position {
-  position: relative;
-  left: 25rem;
 }

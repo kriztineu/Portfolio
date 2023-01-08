@@ -2,8 +2,7 @@
   //console.clear();
   const nav = document.querySelector("nav:where(header *)");
   if (!nav) return;
-  const breakpoint =
-    window.getComputedStyle(nav).getPropertyValue("--less-than") || "500";
+  const breakpoint = window.getComputedStyle(nav).getPropertyValue("--less-than") || "800";
   const mobileMQ = window.matchMedia(`(max-width: ${breakpoint - 1}px)`);
   const iconClose = "M18 6L6 18M6 6l12 12";
   const iconMenu = "M4 12h16M4 6h16M4 18h16";
