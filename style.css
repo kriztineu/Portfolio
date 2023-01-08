@@ -87,10 +87,14 @@ h2 {
 
 /* FORSIDE */
 .frontpage {
-  font-weight: bold;
-  font-size: medium;
-  margin: 0px;
+  font-weight: lighter;
+  font-size: 5rem;
+  margin: 1rem;
   color: #538f5a;
+}
+
+.portfolio {
+  padding-top: 5rem;
 }
 
 h1 {
@@ -105,17 +109,3 @@ h1 {
   position: relative;
   left: 25rem;
 }
-
-.hidden {
-  opacity: 1;
-}
-/* 
-.portfolio {
-  position: relative;
-  left: 30rem;
-}
-
-.om_kristine {
-  position: relative;
-  left: 65rem;
-} */

@@ -87,12 +87,28 @@ img {
   }
 
   /* FORSIDE */
+
+  .titel {
+    display: grid;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin: 4rem;
-    outline-style: dashed;
-    outline-color: red;
+  }
+
+  .portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .om_kristine {
+    display: flex;
+    justify-content: space-evenly;
+    grid-column: 2/3;
+    grid-row: 2/3;
   }
 }
