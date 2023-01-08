@@ -85,6 +85,14 @@ img {
     grid-column: 2/3;
     grid-row: 1/3;
   }
-}
 
-/* FORSIDE */
+  /* FORSIDE */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 4rem;
+    outline-style: dashed;
+    outline-color: red;
+  }
+}

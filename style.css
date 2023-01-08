@@ -34,10 +34,6 @@ body {
   font-weight: 400;
 }
 
-h1 {
-  color: #538f5a;
-}
-
 /* OM_KRISTINE */
 
 .info {
@@ -90,3 +86,36 @@ h2 {
 }
 
 /* FORSIDE */
+.frontpage {
+  font-weight: bold;
+  font-size: medium;
+  margin: 0px;
+  color: #538f5a;
+}
+
+h1 {
+  color: #538f5a;
+  position: relative;
+  line-height: 1px;
+  font-size: 10rem;
+  font-weight: lighter;
+}
+
+.position {
+  position: relative;
+  left: 25rem;
+}
+
+.hidden {
+  opacity: 1;
+}
+/* 
+.portfolio {
+  position: relative;
+  left: 30rem;
+}
+
+.om_kristine {
+  position: relative;
+  left: 65rem;
+} */
