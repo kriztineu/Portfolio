@@ -32,6 +32,12 @@ hr {
 
 /* Tekst/ MAIN/ALLE SIDER */
 
+h1 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  color: #538f5a;
+}
+
 body {
   font-family: baskerville-display-pt, serif;
   font-style: normal;
@@ -39,13 +45,14 @@ body {
   overflow-x: hidden;
 }
 
-h1 {
-  color: #538f5a;
-  position: relative;
-  line-height: 1px;
-  font-size: 10rem;
-  font-weight: lighter;
-  margin-bottom: 0px;
+.position {
+  display: none;
+}
+.position2 {
+  display: none;
+}
+.position3 {
+  display: none;
 }
 
 /* OM_KRISTINE */
@@ -57,13 +64,12 @@ h1 {
 }
 
 .col1 {
-  margin: 4rem;
+  margin: 1rem;
 }
 
 .col2 {
-  font-size: 20px;
   line-height: 2rem;
-  margin: 4rem;
+  margin: 1rem;
 }
 
 .box {
@@ -77,7 +83,7 @@ h1 {
 /* PORTFOLIO */
 
 h2 {
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 100px;
   margin: 50px;
   margin-top: 10px;
@@ -110,11 +116,34 @@ h2 {
 }
 
 /* FORSIDE */
+
 .frontpage {
-  font-weight: lighter;
-  font-size: 5rem;
+  font-weight: 100;
+  font-size: 4rem;
   margin: 1rem;
   color: #538f5a;
+}
+
+.index {
+  position: relative;
+  line-height: 1px;
+  font-size: 4rem;
+  font-weight: 100;
+  left: 2rem;
+  display: block;
+}
+
+.index2 {
+  position: relative;
+  line-height: 1px;
+  font-size: 4rem;
+  font-weight: 100;
+  right: 7.5rem;
+  display: block;
+}
+
+.h1index {
+  display: none;
 }
 
 .portfolio {
@@ -124,30 +153,70 @@ h2 {
 @media (min-width: 800px) {
   /*Forside/Generel */
 
+  h1 {
+    color: #538f5a;
+    position: relative;
+    line-height: 1px;
+    font-size: 10rem;
+    font-weight: 100;
+    margin-bottom: 0px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .h1index {
+    display: block;
+  }
+
+  .index {
+    display: none;
+  }
+
+  .index2 {
+    display: none;
+  }
+
   .position {
     position: relative;
     left: 25rem;
+    display: block;
   }
 
   .position2 {
     position: relative;
     left: 70rem;
     bottom: 13.5rem;
+    display: block;
   }
 
   .position3 {
     position: relative;
     left: 95rem;
     bottom: 13rem;
+    display: block;
   }
 
   /* PORTFOLIO */
 
   h2 {
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 300px;
     margin: 100px;
     margin-top: 150px;
     color: #538f5a85;
+  }
+
+  /* OM_KRISTINE */
+
+  .col1 {
+    margin: 4rem;
+  }
+
+  .col2 {
+    font-size: 20px;
+    line-height: 2rem;
+    margin: 4rem;
   }
 }

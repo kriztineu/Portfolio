@@ -7,6 +7,8 @@ img {
   display: block;
 }
 
+/* FORSIDE */
+
 /* OM_KRISTINE */
 
 .box {
@@ -82,7 +84,7 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .box > *:first-child {
@@ -137,10 +139,6 @@ img {
   }
 
   /* FORSIDE */
-
-  .titel {
-    display: grid;
-  }
 
   .grid {
     display: grid;
