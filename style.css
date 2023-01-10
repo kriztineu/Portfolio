@@ -87,6 +87,7 @@ h2 {
   font-size: 100px;
   margin: 50px;
   margin-top: 10px;
+  margin-bottom: 70px;
   color: #538f5a85;
 }
 
@@ -202,9 +203,8 @@ h2 {
 
   h2 {
     font-weight: 100;
-    font-size: 300px;
-    margin: 100px;
-    margin-top: 150px;
+    font-size: 200px;
+    margin-top: 50px;
     color: #538f5a85;
   }
 
